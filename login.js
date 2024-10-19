@@ -6,11 +6,11 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     const errorMessage = document.getElementById('error-message');
 
     // Simulasi login: admin dan user
-    if (email === 'admin@example.com' && password === 'admin123') {
+    if (email === 'admin@beyonce.com' && password === 'beyonce123') {
         window.location.href = 'about.html'; // Redirect ke halaman about untuk admin
-    } else if (email === 'user@example.com' && password === 'user123') {
+    } else if (email === 'user@ejayz.com' && password === 'jayz123') {
         window.location.href = 'home.html'; // Redirect ke halaman home untuk user
     } else {
-        errorMessage.innerText = 'Invalid email or password';
+        errorMessage.innerText = 'Incorrect Password! Please try again';
     }
 });
