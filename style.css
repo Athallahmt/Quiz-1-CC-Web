@@ -4,9 +4,25 @@
     box-sizing:border-box;
     font-family:"poppins",sans-serif;
 }
-body{
-    background-color: #c9d6ff;
-    background:linear-gradient(to right,#e2e2e2,#c9d6ff);
+body {
+    background-image: url(https://img.freepik.com/free-photo/illustration-rain-futuristic-city_23-2151406606.jpg);
+    background-position: auto;
+    background-size: cover;
+  }
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-display: auto;
+    font-weight: lighter;
+    float: left;
+    font-family: Cynatar;
+    color: #7A1CAC;
 }
 .container{
     background:#fff;
@@ -29,7 +45,7 @@ form{
 input{
     color:inherit;
     width:100%;
-    background-color:transparent;
+    background-color: #pink;
     border:none;
     border-bottom:1px solid #757575;
     padding-left:1.5rem;
