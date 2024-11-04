@@ -85,7 +85,7 @@ signIn.addEventListener('click', async (event) => {
         window.location.href = 'about.html';
       } else {
         showMessage('User login successful', 'signInMessage');
-        window.location.href = 'home.html';
+        window.location.href = 'index 2.html';
       }
     } else {
       showMessage('User data not found', 'signInMessage');
