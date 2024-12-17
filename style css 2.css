@@ -8,7 +8,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
-    background-image: url(https://img.freepik.com/free-vector/watercolor-abstract-purple-background_23-2149120778.jpg?w=360);
+    background-color: #FFFFFF;
+    background: url(Background2.jpg) no-repeat;
     background-position: auto;
     background-size: cover;
 }
@@ -23,10 +24,9 @@ body {
     font-size: 55px;
     font-weight: initial;
     float: left;
-    font-family: Cynatar;
-    color: #7A1CAC;
+    font-family: "Kings", cursive;
+    color: #000;
 }
-
 .menu {
     float: right;
 }
@@ -72,7 +72,13 @@ section {
     display: flex;
     margin-bottom: 50px;
 }
-
+.responsive-img {
+    width: 50%; /* Atur lebar gambar menjadi 50% dari elemen induknya */
+    max-width: 300px; /* Maksimal lebar gambar */
+    height: auto; /* Otomatis menyesuaikan tinggi agar proporsi gambar tetap */
+    margin-right: 20px;
+  }
+  
 .kolom {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -81,16 +87,16 @@ section {
 .kolom .deskripsi{
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #7A1CAC;
+    font-family: "Kings", cursive;
+    color: #000;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: "Kings", cursive;
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #7A1CAC;
+    color: #000;
     width: 100%;
     line-height: 50px;
 }
@@ -107,7 +113,7 @@ button#logout{
 }
 
 button#logout:hover{
-    color: #7A1CAC;
+    color: grey;
     text-decoration: none;
 }
 
@@ -155,7 +161,7 @@ p {
 }
 
 .kartu-member p {
-    font-family: 'comic sans ms';
+    font-family: 'Lexend Deca';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
@@ -181,7 +187,7 @@ p {
 }
 
 h3 {
-    font-family: 'comic sans ms';
+    font-family: "Kings", cursive;
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
